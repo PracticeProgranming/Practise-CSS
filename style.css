@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.px {
+    width: 500px;
+    height: 500px;
+}
+body {
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+
+main {
+    max-width: 55%;
+    margin: auto;
+}
+
+.inforamation {
+    text-align: center;  
+}
+
+/* main */
+
+.info {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .info {
+        display: block;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .infoflex2 {
+        margin-right: 50px;
+
+    }
+
+}
+.infoflex2 {
+    margin-left: 50px;
+}
+
+.foto {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 8px 10px 15px 2px rgb(126, 126, 126);
+}
+
+.info p {
+    display: block;
+    color: rgb(128, 128, 128);
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+.socialnetwork {
+    margin-bottom: 20px;
+}
+
+textarea {
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 500px;
+}
+
+/* Стилызація посилань */
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: aquamarine;
+}
+
+a:visited {
+    color: brown;
+}
+
+/* Реалізація card */
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 24px;
+}
+
+/* Background */
+
+.bg-hobby {
+    background-color: #f3f3c9;
+}
+
+.bg-communication {
+    background-color: rgb(240, 204, 204);
+    border-radius: 24px;
+}
+
+.bg-tablica {
+    background-color: #b7eab7;
+}
+
+/* Стилызація списку */
+.list {
+    padding: 0px 18px;
+    color: rgb(102, 95, 95);
+}
+
+.list li {
+    margin-bottom: 10px;
+}
+
+/* Стилізація таблиці та приклад роботи з псевдоелементами*/
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    
+    padding-bottom: 15px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: rgb(160, 145, 145);
+}
+
+/* Стилізація зв'язку*/
+
+.communication h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    margin-bottom: 5px ;
+    padding: 10px 0px;
+    border-bottom: 1px solid black;
+    outline: none;
+    font-family: inherit;
+}
+
+.flex-group {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.flex-group  .form-group {
+    width: 50%;
+}
+
+.flex-group > .form-group:last-child {
+    margin-left: 20px;
+}
+/* Button */
+
+.btn {
+    padding: 15px 20px;
+    border: none;
+    background: rgb(192, 182, 218);
+    font-family: inherit;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: rgb(212, 200, 238);
+    opacity: 0.9;
+}
